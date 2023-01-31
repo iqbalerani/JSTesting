@@ -48,13 +48,15 @@
 
 // console.log(calcAge3(birthYear))
 
-// const yearsUnitRetirement = birthYear => {
+// const yearsUnitRetirement = (birthYear, firtName) => {
 //     const age = 2037 - birthYear;
 //     const retirement = 65 - age;
-//     return retirement
+//     return `${firtName} retires in ${retirement} years`
 // }
 
-// console.log(yearsUnitRetirement(1984))
+// console.log(yearsUnitRetirement(1984, 'Iqbal'));
+// console.log(yearsUnitRetirement(1988, 'Saima'));
+
 
 // // Non Arrow (standard way)
 // let add = function (x, y) {
@@ -69,4 +71,27 @@
 // // You can still encapsulate
 // let add = (x, y) => { return x + y; };
 
+//nested function
+// function cutFruitPieces(fruit) {
+//     return fruit * 4;
+// }
+
+// function fruitProcessor(apples, oranges) {
+//     const applePieces = cutFruitPieces(apples);
+//     const orangePieces = cutFruitPieces(oranges);
+
+//     const juice = `Juice with ${applePieces} piece of apple and ${orangePieces} piece of orange.`;
+//     return juice;
+// }
+
+// // fruitProcessor(2, 3)
+// console.log(fruitProcessor(2, 3))
+
+const friend1 = 'Micheal';
+const friend2 = 'Steven';
+const friend3 = 'Peter';
+
+const friends = ['Micheal', 'Steven', 'Peter'];
+
+console.log(friends[2])
 
