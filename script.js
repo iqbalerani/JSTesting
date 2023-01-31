@@ -87,11 +87,75 @@
 // // fruitProcessor(2, 3)
 // console.log(fruitProcessor(2, 3))
 
-const friend1 = 'Micheal';
-const friend2 = 'Steven';
-const friend3 = 'Peter';
+// const friend1 = 'Micheal';
+// const friend2 = 'Steven';
+// const friend3 = 'Peter';
 
-const friends = ['Micheal', 'Steven', 'Peter'];
+// const friends = ['Micheal', 'Steven', 'Peter'];
 
-console.log(friends[2])
+// console.log(friends[2])
+
+// const year = new Array(1991, 1984, 2008, 2020);
+// year[2] = 2010;
+// console.log(year)
+
+// const friends = ['Micheal', 'Steven', 'Peter'];
+// friends.push('Jay');
+// friends.pop(2);
+
+// friends.unshift('John');
+
+// friends.pop();
+// console.log(friends);
+
+// friends.shift();
+
+// console.log(friends);
+
+// console.log(friends.indexOf('Steven'));
+
+// console.log(friends.includes('Steven'));
+
+
+// const jonas = {
+//     firstName: 'Jonas',
+//     lastName: 'Schmedtanm',
+//     birthYear: 1984,
+//     job: 'teacher',
+//     friends: ['Michael', 'Peter', 'Steven'],
+//     hasDriverslicense: true,
+//     calcAge: function () {
+//         this.age = 2037 - this.birthYear;
+//         return this.age;
+//     },
+//     getSummary: function () {
+//         return `${this.firstName} is a ${this.calcAge()} year old ${jonas.job}, and he has ${this.hasDriverslicense ? 'a' : 'no'} driver's licence`
+//     }
+// };
+
+// // console.log(jonas.job)
+// // console.log(jonas['age'])
+// jonas.calcAge();
+// console.log(jonas.age);
+
+// console.log(jonas.age);
+// console.log(jonas.age)
+// console.log(jonas.getSummary())
+
+// for loop
+// for (let rep = 1; rep <= 10; rep++) {
+//     console.log(`Lifting weights reptition ${rep}`)
+// }
+
+// let rep = 1;
+// while (rep != 10) {
+//     console.log(`Lifting weights reptition ${rep}`);
+//     rep++;
+// }
+
+let rep = 0;
+while (rep < 10) {
+    ++rep;
+    console.log(`Lifting weights repetition ${rep}`);
+}
 
